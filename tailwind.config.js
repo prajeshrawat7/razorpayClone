@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {'featureSec2' : "url('/images/feature-section-2BG.svg')" ,
-      'coreFeatures' : "url('/images/core-features-sectionBg.svg')"
+      'coreFeatures' : "url('/images/core-features-sectionBg.svg')",
     }
       ,
       fontFamily: {
@@ -21,7 +21,9 @@ module.exports = {
         grayBlue: "#344a6c",
         deepBlueHead: "#162f56",
         gray2: "#525a76",
-      },},
+      },
+      
+    },
   },
   plugins: [],
 }
